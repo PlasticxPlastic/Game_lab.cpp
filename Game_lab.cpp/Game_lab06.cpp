@@ -34,7 +34,7 @@ void erase_ship(int x, int y) {
 
 void draw_bullet(int x, int y)
 {
-	setcolor(4, 2);
+	setcolor(2, 4);
 	gotoxy(x, y);
 	printf("^");
 }
